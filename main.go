@@ -19,8 +19,7 @@ func main() {
 	measurementTags := flag.String("tags", "", "Comma seperated list of key=value tags")
 	flag.Parse()
 
-	//	Influx write format:
-	//	build,application=Formbuilder value="FormBuilder-Build_20170417.1"
+	//	Create a new InfluxDB client
 	c, err := client.NewHTTPClient(client.HTTPConfig{Addr: *influxServer})
 	if err != nil {
 		log.Fatal(err)
