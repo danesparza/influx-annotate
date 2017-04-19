@@ -1,4 +1,4 @@
-# influx-annotate
+# influx-annotate [![CircleCI](https://circleci.com/gh/danesparza/influx-annotate.svg?style=svg)](https://circleci.com/gh/danesparza/influx-annotate)
 Command line tool to add annotations to an InfluxDB database.  
 
 Suitable for batch files, deployment scripts, unicorn logging
