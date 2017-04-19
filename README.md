@@ -22,5 +22,5 @@ server          | The [InfluxDB server](https://docs.influxdata.com/influxdb/v1.
 database        | The [InfluxDB database](https://docs.influxdata.com/influxdb/v1.2/concepts/glossary/#database) to use. Defaults to 'events'
 name            | The [measurement name](https://docs.influxdata.com/influxdb/v1.2/concepts/glossary/#measurement).  Defaults to 'build'
 value           | The [measurement value](https://docs.influxdata.com/influxdb/v1.2/concepts/glossary/#field-value)
-tags            | Comma seperated list of [tags](https://docs.influxdata.com/influxdb/v1.2/concepts/glossary/#tag-set).  Example: `application=My app name,env=dev,machine=server01`
+tags            | Comma separated list of [tags](https://docs.influxdata.com/influxdb/v1.2/concepts/glossary/#tag-set).  Example: `application=My app name,env=dev,machine=server01`
 
